@@ -1,0 +1,140 @@
+html {
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	overflow-y: hidden;
+}
+
+html, body, #map {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html, input {
+  font-family:
+  	'Roboto', sans-serif;
+    "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+ul {
+	list-style: none;
+	word-wrap: break-word;
+}
+
+form { 
+	background: #000; 
+	padding: 3px; 
+	position: fixed; 
+	bottom: 0; 
+	width: 100%; 
+}
+ 
+form input { 
+	border: 0; 
+	padding: 10px; 
+	width: 90%; 
+	margin-right: .5%; 
+}
+
+form button { 
+	width: 9%; 
+	background: rgb(130, 224, 255); 
+	border: none; 
+	padding: 10px; 
+}
+
+.pages {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.page {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* Login Page */
+
+.login.page {
+  background-color: #64b5f6 ;
+}
+
+.login.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.login.page .form .usernameInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 400px;
+}
+
+.login.page .title {
+  font-size: 200%;
+  font-weight: 700;
+}
+
+.login.page .usernameInput {
+  font-size: 200%;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.login.page .title, .login.page .usernameInput {
+  color: #fff;
+  font-weight: 100;
+}
+
+      
+#map {
+    height: 100%;
+}
+
+.input-wrapper {
+    position: fixed;
+    bottom: 65px;
+    width: 100%;
+}
+
+.input-field label {
+    color: black;
+}
+
+.input-field input {
+    max-width: 58%;
+
+    border: none !important;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 10px;
+
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
+    -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.fixed-action-btn {
+	z-index: 995;
+	bottom: 70px;
+	right: 80px;
+}

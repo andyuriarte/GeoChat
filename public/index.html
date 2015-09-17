@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+    <link href="css/styles.css" rel="stylesheet"/>
+   
+
+    <title>GeoChat - Realtime Map Chat</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <ul class="pages">
+      <li class="chat page">
+        <div id="map"></div>
+            <form action="">
+              <input id="m" autocomplete="off" /><button>Send</button>
+            </form>
+      <li>
+      <li class="login page">
+          <div class="form">
+            <h3 class="title">Enter your username.</h3>
+            <input class="usernameInput" type="text" maxlength="14" />
+          </div>
+      </li>
+    </ul>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+  </body>
+</html>
